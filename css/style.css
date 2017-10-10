@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-/*@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
     .img-circle, .devices {
         display: none;
-    }*/
+    }
 
 html, body {
     height: 100%;
@@ -46,12 +46,12 @@ margin-left: 630px;
     background-color: #DD4E40 !important;
 }
 
-/* This will be active when the scrollTop == 0 */
+/* Así fue que pude hacer la pequeña animación del navbar*/
 .navbar-invis {
     background-color: rgba(0, 0, 0, 0);
 }
 
-/* This will be active when the scrollTop != 0 */
+/* y con esto tambien, para que funcione cuando se pase el clic */
 .navbar-moved {
     background-color: #242B35;
     -webkit-box-shadow: 0px 1px 5px 0px #000;
@@ -134,7 +134,7 @@ a:hover, a:active a:visited {
     color: #DD4E40;
     text-decoration: none !important;
 }
-
+/* con estos codigos fue que pude hacer el slider, usando solo HTML y CSS animations */
 .slider {
     width: 95%;
     margin: auto;
@@ -157,7 +157,7 @@ a:hover, a:active a:visited {
 .slider img {
     width: 100%;
 }
-
+/* aqui esta el tiempo determinado de las fotos y porque se devuelven */
 @keyframes cambio {
     0% {margin-left: 0;}
     20% {margin-left: 0;}
